@@ -17,16 +17,18 @@ const routes = [
     },
     {
         path: '/register',
-        name: 'Register',
+        name: 'Register', 
         component: Register
     }, 
 
 ];
 
 
-const router = createRouter({
+const router = createRouter( {
     history: createWebHistory(),
     routes
 })
+
+
 
 export default router; 
